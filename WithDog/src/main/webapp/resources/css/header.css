@@ -1,0 +1,94 @@
+.header {
+	height: 300px;
+}
+
+/* 위젯설정 */
+.widget {
+	display: flex;
+	height: 48px;
+	width: 100%;
+	border-bottom: 1px solid #e7e2e2;
+}
+
+.widget div:nth-child(1)>a {
+	text-decoration: none;
+	color: #8b8a8a;
+	margin: 0 10px;
+}
+
+.widget div a {
+	text-decoration: none;
+	color: black;
+	margin: 0 10px;
+}
+
+.widgetgroup-left {
+	position: absolute;
+	left: 28px;
+	top: 11px;
+}
+
+.widgetgroup-center {
+	margin: auto;
+}
+
+.widgetgroup-right {
+	position: absolute;
+	right: 28px;
+	top: 11px;
+}
+
+/* 로고설정 */
+.logo {
+	width: 396px;
+	margin: 0 auto;
+}
+
+.logo img {
+	margin: 15px 0;
+	height: 155px;
+}
+
+/* 드롭다운 메뉴 설정 */
+.dropdown {
+	margin: 0 auto;
+	width: 628px;
+}
+
+#main-menu, #sub-menu {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+#main-menu>li {
+	float: left;
+	padding: 15px 26px;
+}
+
+#main-menu>li>a {
+	display: block;
+	text-align: center;
+}
+
+#main-menu>li:hover #sub-menu {
+	opacity: 1;
+	visibility: visible;
+}
+
+#sub-menu {
+	position: absolute;
+	opacity: 0;
+	visibility: hidden;
+	margin-top: 20px;
+}
+
+#sub-menu>li {
+	background: #f8f8f8;
+	padding: 19px 26px;
+}
+
+#sub-menu>li>a {
+	text-decoration: none;
+	color: black;
+}
