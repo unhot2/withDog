@@ -1,4 +1,4 @@
-package com.yg.withdog;
+package com.yg.withDog.controller;
 
 import java.util.Locale;
 import org.springframework.stereotype.Controller;
