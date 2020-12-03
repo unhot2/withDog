@@ -7,4 +7,7 @@
 		select * from user
 	</select>
 
+	<insert id="loginChk">
+		insert into user values(#{userId},#{userPwd})
+	</insert>
 </mapper>

@@ -25,7 +25,7 @@
 		</div>
 		<!-- 로고부분  css:common-->
 		<div class="logo">
-			<a href="index"><img src="resources/img/withdog.jpg"></a>
+			<a href="/"><img src="resources/img/withdog.jpg"></a>
 		</div>
 		<!-- 드롭다운 메뉴 / css:common-->
 		<div class="dropdown">

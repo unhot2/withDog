@@ -12,14 +12,14 @@
 		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.3.xsd">
 	
 	<!-- Root Context: defines shared resources visible to all other web components -->
-	<!-- <context:property-placeholder location="classpath:database/database.properties"/> -->
+	<context:property-placeholder location="classpath:database/database.properties"/>
 
 	<!-- dataSource 설정, spring-jdbc 모듈 사용, spring 에서 jdbc 를 통해 mysql 에 접속할 수 있게 함 -->
 	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
-        <property name="driverClassName" value="com.mysql.cj.jdbc.Driver" />
-        <property name="url" value="jdbc:mysql://localhost:3306/withdog?allowPublicKeyRetrieval=true&amp;serverTimezone=UTC&amp;useSSL=false" />
-        <property name="username" value="unhot2" />
-        <property name="password" value="qlalf12" />
+        <property name="driverClassName" value="${database.driver}" />
+        <property name="url" value="${database.url}" />
+        <property name="username" value="${database.username}" />
+        <property name="password" value="${database.password}" />
 	</bean>
 	
 	  <!-- mybatis 설정, mybatis-spring 모듈 사용  -->

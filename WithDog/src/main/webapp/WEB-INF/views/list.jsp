@@ -7,9 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<c:forEach items="${list}" var="list">
-${list.userId} <br/>
-${list.userPwd }
-</c:forEach>
+회원 가입 여부 : ${chk } 입니다.
 </body>
 </html>
