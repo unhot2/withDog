@@ -1,5 +1,7 @@
 package com.yg.withDog.service;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -12,7 +14,11 @@ public class LoginService {
 	@Autowired
 	private LoginDAO dao;
 	
-	public void loginChk(LoginDTO dto) {
-	dao.LoginChk(dto);
+	public boolean loginChk(LoginDTO dto) {
+	return true;
+	}
+	
+	public List<LoginDTO> listall() {
+		return dao.listall();
 	}
 }
