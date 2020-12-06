@@ -53,6 +53,7 @@
 .dropdown {
 	margin: 0 auto;
 	width: 628px;
+	z-index : 1;
 }
 
 #main-menu, #sub-menu {

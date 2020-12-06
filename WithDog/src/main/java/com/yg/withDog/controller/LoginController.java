@@ -19,6 +19,12 @@ public class LoginController {
 		return "/login/loginForm";
 	}
 
+	@RequestMapping("membershipForm")
+	public String membershipForm() {
+		return "/login/membershipForm";
+	}
+	
+	
 	@RequestMapping("loginChk")
 	public String listall(Model model, LoginDTO dto) {
 		boolean chk = service.loginChk(dto);

@@ -10,17 +10,14 @@
 		<!-- 최상단 위젯부분 css:common-->
 		<div class="widget">
 			<div class="widgetgroup-left">
-				<a href="#">Instagram</a>
-				<a href="#">Facebook</a>
-				<a href="#">Twitter</a>
+				<a href="#">Instagram</a> <a href="#">Facebook</a> <a href="#">Twitter</a>
 			</div>
 			<div class="widgetgroup-center">
 				<a>행복한 동반자</a>
 			</div>
 			<div class="widgetgroup-right">
-				<a href="login">로그인</a>
-				<a href="#">회원가입</a>
-				<a href="#">검색</a>
+				<a href="login">로그인</a> <a href="membershipForm">회원가입</a> <a
+					href="#">검색</a>
 			</div>
 		</div>
 		<!-- 로고부분  css:common-->
